@@ -1,3 +1,5 @@
+import local_fdr.University.Student;
+
 public class Tester {
     public static void main(String[] args) {
         
@@ -100,15 +102,26 @@ public class Tester {
 
         // s1.makeCall(s2); // Pass by reference
 
-        Student s1 = new Student("Bob", 11);
+        // Student s1 = new Student("Bob", 11);
 
-        Course c1 = new Course("CSE111", "Object Oriented Programming");
-        Course c2 = new Course("MAT120");
+        // Course c1 = new Course("CSE111", "Object Oriented Programming");
+        // Course c2 = new Course("MAT120");
 
-        s1.addCourse(c1);
-        s1.addCourse(c2);
+        // s1.addCourse(c1);
+        // s1.addCourse(c2);
+
+        // s1.showDetail();
+
+        local_fdr.University.Student s1 = new Student("Bob", "11");
 
         s1.showDetail();
+        System.out.println("Name: " + s1.name);
+        //System.out.println("ID: " + s1.id);
+        //System.out.println("Age: " + s1.age);
+        //System.out.println("CGPA: " + s1.cgpa);
+
+        // Public -> Yes    Private -> No
+        // Default -> No   Protected -> No
 
     }
 }
