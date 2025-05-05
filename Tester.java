@@ -1,4 +1,4 @@
-import local_fdr.University.Student;
+import University.*;
 
 public class Tester {
     public static void main(String[] args) {
@@ -112,7 +112,7 @@ public class Tester {
 
         // s1.showDetail();
 
-        local_fdr.University.Student s1 = new Student("Bob", "11");
+        University.Student s1 = new University.Student("Bob", "11");
 
         s1.showDetail();
         System.out.println("Name: " + s1.name);

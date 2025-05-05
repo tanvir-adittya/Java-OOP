@@ -1,7 +1,7 @@
-package local_fdr.University;
+package University;
 
 public class Student {
-    
+
     public String name;
     String id;
     private int age;
