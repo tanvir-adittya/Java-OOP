@@ -1,7 +1,7 @@
 public class Student { // Blueprint
     
     public String name; // instance varible
-    public int id = 100; // instance varible
+    private int id = 100; // instance varible
     public double cgpa;
     public Course[] courses = new Course[5];
     public int courseCount = 0;
@@ -55,6 +55,14 @@ public class Student { // Blueprint
 
     public void standUp() { // instance methode
         System.out.println(name + " is now standing.");
+    }
+
+    public void updateId(int id) {
+        if(id > 0) {
+            this.id = id;
+        } else {
+            System.out.println("Invalid ID given");
+        }    
     }
 
 }
