@@ -130,11 +130,24 @@ public class Tester {
 
         // s1.showDetail();
 
-        Student s1 = new Student("Bob", 11);
-        Student s2 = new Student("Carol", 33);
+        // Student s1 = new Student("Bob", 11);
+        // Student s2 = new Student("Carol", 33);
 
-        s1.showDetail();
-        s2.showDetail();
+        // s1.showDetail();
+        // s2.showDetail();
+
+        System.out.println("Teamrun: " + Player.teamRun);
+
+        Player sakib = new Player();
+        Player tamim = new Player();
+
+        tamim.hitFour();
+        tamim.hitFour();
+        sakib.hitSix();
+
+        System.out.println("Sakib run: " + sakib.run);
+        System.out.println("Tamim run: " + tamim.run);
+        System.out.println("Teamrun: " + Player.teamRun);
 
     }
 }
