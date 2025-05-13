@@ -44,7 +44,9 @@ public class Student { // Blueprint
         
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
-        System.out.println("Course taken:");
+        //System.out.println("Course taken:");
+        double cg = calculateCGPA();
+        System.out.println("CGPA: " + cg);
 
         for(int i=0; i < courseCount; i++) {
 
@@ -67,6 +69,10 @@ public class Student { // Blueprint
 
     public int getID() {
         return id;
+    }
+
+    private double calculateCGPA() {
+        return 4.0;
     }
 
 }

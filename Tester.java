@@ -123,12 +123,18 @@ public class Tester {
         // Public -> Yes    Private -> No
         // Default -> No   Protected -> No
 
-        Student s1 = new Student("Bob", 11);
+        // Student s1 = new Student("Bob", 11);
 
-        s1.setId(55);
-        System.out.println(s1.getID()); 
+        // s1.setId(55);
+        // System.out.println(s1.getID()); 
+
+        // s1.showDetail();
+
+        Student s1 = new Student("Bob", 11);
+        Student s2 = new Student("Carol", 33);
 
         s1.showDetail();
+        s2.showDetail();
 
     }
 }
