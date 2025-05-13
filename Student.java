@@ -5,6 +5,7 @@ public class Student { // Blueprint
     public double cgpa;
     public Course[] courses = new Course[5];
     public int courseCount = 0;
+    public static int count = 0;
 
     public Student() { // no-parameterized or default constructor
         System.out.println("no parameter I was called");
@@ -16,6 +17,7 @@ public class Student { // Blueprint
 
         this.name = name;
         this.id = id;
+        count += 1;
     }
 
     public Student(String name, int id, double cgpa) { // parameterized constructor
