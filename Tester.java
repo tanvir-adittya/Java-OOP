@@ -125,7 +125,8 @@ public class Tester {
 
         Student s1 = new Student("Bob", 11);
 
-        s1.updateId(12);
+        s1.setId(55);
+        System.out.println(s1.getID()); 
 
         s1.showDetail();
 

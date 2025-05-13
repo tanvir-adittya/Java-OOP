@@ -57,12 +57,16 @@ public class Student { // Blueprint
         System.out.println(name + " is now standing.");
     }
 
-    public void updateId(int id) {
+    public void setId(int id) {
         if(id > 0) {
             this.id = id;
         } else {
             System.out.println("Invalid ID given");
         }    
+    }
+
+    public int getID() {
+        return id;
     }
 
 }
