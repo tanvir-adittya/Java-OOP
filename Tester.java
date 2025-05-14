@@ -149,12 +149,23 @@ public class Tester {
         // System.out.println("Tamim run: " + tamim.run);
         // System.out.println("Teamrun: " + Player.teamRun);
 
-        System.out.println("Total student: " + Student.count);
+        // System.out.println("Total student: " + Student.count);
 
-        Student s1 = new Student("Bob", 11);
-        Student s2 = new Student("Carol", 33);
+        // Student s1 = new Student("Bob", 11);
+        // Student s2 = new Student("Carol", 33);
 
-        System.out.println("Total student: " + Student.count);
+        // System.out.println("Total student: " + Student.count);
+
+        ABC a1 = new ABC(11);
+        a1.methode1();
+
+        ABC a2 = new ABC(22);
+        a2.methode1();
+
+        ABC.x = 66;
+
+        a1.methode1();
+        a2.methode1();
 
     }
 }
